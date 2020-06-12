@@ -1,0 +1,37 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laksh13/portfolio.git"
+  },
+  "author": "Lakshman Bondela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laksh13/portfolio/issues"
+  },
+  "homepage": "https://github.com/laksh13/portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "css-loader": "^3.5.3",
+    "exports-loader": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
+    "popper.js": "^1.16.1"
+  }
+}

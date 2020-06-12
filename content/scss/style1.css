@@ -1,0 +1,53 @@
+body {
+  /*font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;*/
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff5fb;
+  font-size: 16px;
+  max-height: 100vh;
+  /*border: solid 6px #C7CE7D;*/
+}
+#main-container {
+  margin: 8vh 10vw;
+  height: 80vh;
+  width: 80vw;
+  background-color: #dbc4df;
+  border: none;
+  vertical-align: middle;
+  align-content: center;
+  color: #b88bad;
+  border-radius: 15px;
+  box-shadow: 0px 20px 5px #efdee9;
+  -webkit-box-shadow: 0px 20px 5px #efdee9;
+  -moz-box-shadow: 0px 20px 5px #efdee9;
+  position: relative;
+}
+.pad-top-20 {
+  padding-top: 20px;
+}
+.v-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#main-container .footer {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+.footer-text {
+  color: #b88bad;
+  font-size: 20px;
+}
+.pad-left-none {
+  padding-left: 0;
+}
+.pad-right-none {
+  padding-right: 0;
+}
+.pad-top-10 {
+  padding-top: 10px;
+}
